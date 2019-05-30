@@ -2,6 +2,7 @@
 API testing using python programming language
 
 #Description about code written for api testing
+
 code is written for manually api testing in different file for get, post, put and delete requests that is in the folder manual api testing example of samle api taken from website reqres.in
 code is written withing automate_api_testing folder is for automate the api testing. In apitest_1.py used sample api from reqres.in website.
 
