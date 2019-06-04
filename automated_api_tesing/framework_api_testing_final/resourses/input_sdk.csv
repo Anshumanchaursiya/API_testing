@@ -1,0 +1,5 @@
+*SERIAL NO.*,***URL***, ***REQUEST TYPE***,***URL PARAMETER***, ***HEADER***,*** REQUEST BODY***,***EXPECTED STATUS CODE***
+1,http://dev-api-stream.cloudmi.datami.com:8870/tv/layout/v1/page,get,{},"{""pageId"":""homepage"",""appId"":""MOBILITY""}",,200
+2,http://dev-api-stream.cloudmi.datami.com:8875/v3/user/login?appId=MOBILITY,post,{},"{""x-atv-did"":""a4cd9a87639cb697|Phone|Android|28|12573|1.16.3"",""Content-Type"":""application/json""}","{""deviceType"":""OnePlus ONEPLUS A6000"",""requireOtp"":""false"",""gcmKey"":""dZP-nttyrb8:APA91bHvEv-bQE-FSnRFjKnGw6fTSukOrzZVZmMeAVBhuKIVZepQcx2YZFInUEkoOuLlb1F1TQ3Q0Xmy7UE_ctNq3hSCdH-N_B0k4Tarek-Q729yxsdR-FqSniX_isa9R1IHWrdHnQMO"",""deviceKey"":""APADdd8231gg""}",200
+3,http://dev-api-stream.cloudmi.datami.com:8875/v1/user/login/airtelonly,get,{},"{""User-Agent"":""okhttp/3.8.0""}",,200
+4,http://content-tv-stream.cloudmi.datami.com/app/v1/package,get,"{""id"":""ATV_PACKAGE_1557901134727""}",{},,200
