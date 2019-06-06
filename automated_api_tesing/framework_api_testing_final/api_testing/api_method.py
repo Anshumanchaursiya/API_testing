@@ -17,7 +17,6 @@ api_name ="input_cms.csv"
 # GET METHOD
 #######################################
 def get_method(url,parameter, header, body, response,i):
-    print(url)
     print("This is get request")
     if(isinstance(header,str)):
         header = json.loads(header)
@@ -133,25 +132,35 @@ def post_method_login(url,parameter, header, body, response,i):
             delete_method(url,parameter, header, body, response, i)
 
         input_file_list = os.listdir("C:/Users/SONY/PycharmProjects/framework_api_testing_final/resourses")
+        #removing the pycache file that is not necessary
+        if "__pycache__" in input_file_list:
+            input_file_list.remove('__pycache__')
 
+        print(input_file_list,"**********")
 
-        number_of_input_file = len(input_file_list) - 2
+        #total number of file in resourse folder
+        number_of_input_file = len(input_file_list)
+        #print(number_of_input_file,"######")
 
         #increasing the value of i to iterate all the rows
         i+=1
 
         if(i==(resourses.resourse.row_count)):
-
             i=1;
-            input_file_number = input_file_number + 1
+
+            if(input_file_list[input_file_number]=='input_cms.csv' or input_file_list[input_file_number]=='resourse.py'):
+                input_file_number = input_file_number + 1
+
             #exit from the loop when all input csv file has been read
             if(input_file_number>=number_of_input_file):
                 exit()
 
             api_name = input_file_list[input_file_number]
+            input_file_number += 1
             s = api_name
             print("Reading from "+s[6:])
             resourses.resourse.read_write(api_name, "output" +s[5:] )
+
 
 
 ######################################
