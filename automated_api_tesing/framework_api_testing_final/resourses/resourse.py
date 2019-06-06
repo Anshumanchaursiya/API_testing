@@ -21,7 +21,7 @@ def read_write(input_file, output_file):
         global out_file
 
     out_file = "C:/Users/SONY/PycharmProjects/framework_api_testing_final/out/" + output_file
-    out_file = open(out_file, "w", newline='')
+    out_file = open(out_file, "w",encoding="utf-8", newline='')
     in_file = open(in_file, "rb")
     reader = csv.reader(in_file)
     global CSVWriter
