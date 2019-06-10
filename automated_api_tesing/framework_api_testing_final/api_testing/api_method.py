@@ -122,7 +122,7 @@ def post_method_login(url,parameter, header, body, response,i):
         url = resourses.resourse.data[i][1]
         method = resourses.resourse.data[i][2]
         parameter = resourses.resourse.data[i][3]
-        if(api_name=="input_cms.csv" ):
+        if(api_name=="input_cms.csv" or api_name=="input_negative.csv"):
             # converting header string to dict format
             if (isinstance(resourses.resourse.data[i][4], str)):
                 resourses.resourse.data[i][4] = json.loads(resourses.resourse.data[i][4])
