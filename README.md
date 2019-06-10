@@ -1,6 +1,9 @@
 # API_testing
 API testing using python programming language
 
+NOTE: Final product is in directory framwork_api_testing_final inside automated_api_testing
+
+
 #Description about code written for api testing
 code is written for manually api testing in different file for get, post, put and delete requests that is in the folder manual api testing example of samle api taken from website reqres.in
 
