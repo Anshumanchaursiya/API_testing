@@ -1,5 +1,1 @@
-*SERIAL NO.*,***URL***, ***REQUEST TYPE***,***QUERY PARAMETER***, ***HEADER***,*** REQUEST BODY***,***EXPECTED STATUS CODE***
-1,http://dev-api-stream.cloudmi.datami.com:8874/v2/user/playback,get,"{""contentId"":""ZEE5_EPISODE_0-1-168322"",""ln"":""hi"",""appId"":""MOBILITY""}","{""x-atv-did"":""3be520535b21d33b|phone|Android|24|12566|1.15.4"",""Content-Type"":""application/json"",""x-atv-utkn"":""IWhtS-QaccXA_Za3I0:k2yMdxNBRiJl0BXq2TQI+XKZgbg="",""x-atv-customer"":""405-861,404-45|NON_AIRTEL|1|861|1"",""x-atv-circle"":""unknown"",""x-atv-segment"":""ATVLITE""}",,200
-2,http://dev-api-stream.cloudmi.datami.com:8874/v2/user/playback,get,"{""contentId"":""TRACE_LIVE_Live""}","{""x-atv-did"":""3be520535b21d33b|phone|Android|24|12566|1.15.4"",""x-atv-utkn"":""1gM5YzvwPDiuM5KwJ0:iDne+q2/0LwbE26cjIvYf6ELxU8=""}",,200
-3,http://dev-api-stream.cloudmi.datami.com:8874/v2/user/content/heartbeat,post,"{""appId"":""MOBILITY""}","{""x-atv-did"":""3be520535b21d33b|phone|Android|24|12566|1.15.4"",""x-atv-utkn"":""1gM5YzvwPDiuM5KwJ0:aQYAFCpZIH+EVw9v7BHd7ZTqPEM=""}","{""contentId"":""EROSNOW_MOVIE_6272897""}",200
-4,http://dev-api-stream.cloudmi.datami.com:8875/v1/user/login/airtelonly,get,"{""contentId"":""HOTSTAR_SPORTS_2001631033""}",{},,200
+
