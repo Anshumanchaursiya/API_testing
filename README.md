@@ -36,4 +36,4 @@ install some package within this project
         go on search icon on the top and type whatever requests you want to install 
         click on bottom left icon(install package)
  
- After installing package write code(if you need) in your python file and run (ctrl+shift+f10)
+ After installing package write code(if you need) in your python file and run (ctrl+shift+f10 (for windows))
