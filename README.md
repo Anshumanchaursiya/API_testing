@@ -27,13 +27,24 @@ install some package within this project
     NOTE: by default csv,socket,time is already installed in pycharm IDE still you can check 
   :It can be install through terminal but there will be possibility it will not work, you should download all package within pycharm project 
   
-     steps to install package on pycharm IDE
+     steps to install package on pycharm IDE on windows
         select file and click
         select settings
+        select projects
+        select project internpreter 
+        click on + button on (top right cornor on windows)
+        go on search icon on the top and type whatever requests you want to install 
+        click on bottom left icon(install package)
+        
+      steps to install package on pycharm IDE on mac
+        on left corner of the screen click on Pycharm
+        select preferences
         select projects
         select project internpreter 
         click on + button on (top right cornor on windows and bottom left on mac)
         go on search icon on the top and type whatever requests you want to install 
         click on bottom left icon(install package)
+        
+      
  
  After installing package write code(if you need) in your python file and run (ctrl+shift+f10 (for windows))
