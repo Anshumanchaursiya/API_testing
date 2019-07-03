@@ -1,3 +1,6 @@
+#Created by Anshuman Chaursiya during summer internship from may 2019 to july 2019
+#Copyright (c) 2019 Anshuman chaursiya. All rights reserved
+
 import json
 import requests
 import csv
