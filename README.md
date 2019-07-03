@@ -52,4 +52,7 @@ Setup:
   4. set the timeout if you want more time to wait for the responce
   5. save this file.
  
+ 
+ Note: main file is inside bin folder , you need to run main.py to run the project
+ 
  After installing package write code(if you need) and set up in your python file and run (ctrl+shift+f10 (for windows))
